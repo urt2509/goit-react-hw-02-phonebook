@@ -24,7 +24,7 @@ const InputFilter = styled.input`
 
 const Title = styled.h3`
   margin-top: 0;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
   margin-left: 40px;
   text-align: start;
   color: #555;

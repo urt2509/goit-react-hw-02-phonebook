@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const ContactFormContainer = styled.form`
-  margin-bottom: 25px;
+  margin-bottom: 10px;
   margin-left: 40px;
 
   display: flex;
@@ -15,11 +15,15 @@ const Label = styled.label`
 `;
 
 const Title = styled.h3`
+  margin-bottom: 10px;
   text-align: start;
 `;
 
 const Input = styled.input`
+margin: 0px;
   width: 250px;
+  height: 100%; 
+  max-height: 105px;
   border: solid 3px rgb(96, 149, 255);
   border-radius: 5px;
   box-shadow: rgb(216, 227, 237) 2px 2px 5px 5px;

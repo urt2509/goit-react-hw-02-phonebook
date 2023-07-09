@@ -8,7 +8,7 @@ import {
   Input,
   Button,
   Title,
-} from './ContactForm.styles';
+} from './ContactForm.styled';
 
 class ContactForm extends Component {
   state = {
