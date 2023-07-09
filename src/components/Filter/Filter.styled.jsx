@@ -15,11 +15,6 @@ const InputFilter = styled.input`
   height: 100%;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-
-  &:hover,
-  :focus {
-    color: rgb(255, 255, 255);
-  }
 `;
 
 const Title = styled.h3`
