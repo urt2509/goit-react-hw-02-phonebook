@@ -93,12 +93,12 @@ class App extends Component {
 }
 
 App.propTypes = {
-  id: PropTypes.string.isRequired,
+  id: PropTypes.string,
   filter: PropTypes.string,
   contacts: PropTypes.shape({
-    id: PropTypes.string.isRequired,
-    name: PropTypes.string.isRequired,
-    number: PropTypes.number.isRequired,
+    id: PropTypes.string,
+    name: PropTypes.string,
+    number: PropTypes.number,
   }),
 };
 
